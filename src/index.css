@@ -1,0 +1,27 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+ 
+  
+}
+
+@layer components{
+  .size-selector input:checked + label{
+      @apply bg-primary text-white;
+  }
+  .text-input {
+    @apply py-2 rounded px-2 text-lg w-full text-black backdrop-filter-none hover:bg-gray-200
+  }
+  .color-selector input:checked + label{
+      @apply ring-2 ring-primary;
+  }
+  .input-box{
+      @apply w-full block border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400;
+  }
+ .table-row{
+    @apply odd:bg-slate-300 even:bg-slate-50 hover:bg-slate-400
+  }
+}

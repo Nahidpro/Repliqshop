@@ -1,0 +1,26 @@
+import { v4 as uuidv4 } from 'uuid';
+const OrderCollection = [
+    {
+        OrderBy:'Liam Johnson',
+        title:'Example Product 1',
+        price:370,
+        quantity:2,
+        totalPrice:740,
+        status:'pending',
+        id:uuidv4(),
+       
+    
+    },
+    {
+        OrderBy:'Olivia Smith',
+        title:'Astrum MU080 Wired Optical USB Mouse',
+        price:200,
+        quantity:3,
+        totalPrice:600,
+        status:'pending',
+        id:uuidv4(),
+       
+    
+    },
+];
+export default OrderCollection

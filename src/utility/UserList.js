@@ -1,0 +1,110 @@
+import { v4 as uuidv4 } from 'uuid';
+
+let users = [
+    {
+      name: "Emma Williams",
+      mobileNumber: "555-555-1234",
+      address: "123 Main Street",
+      email: "emma.williams@email.com",
+      id:uuidv4(),
+    },
+    {
+      name: "Liam Johnson",
+      mobileNumber: "555-555-5678",
+      address: "456 Oak Avenue",
+      email: "liam.johnson@email.com",
+      id:uuidv4(),
+    },
+    {
+      name: "Olivia Smith",
+      mobileNumber: "555-555-9012",
+      address: "789 Pine Road",
+      email: "olivia.smith@email.com",
+      id:uuidv4(),
+    },
+    {
+      name: "Noah Brown",
+      mobileNumber: "555-555-3456",
+      address: "12 Maple Street",
+      email: "noah.brown@email.com",
+      id:uuidv4(),
+    },
+    {
+      name: "Ava Davis",
+      mobileNumber: "555-555-7890",
+      address: "345 Elm Avenue",
+      email: "ava.davis@email.com",
+      id:uuidv4(),
+    },
+    {
+      name: "William Wilson",
+      mobileNumber: "555-555-2345",
+      address: "678 Cedar Lane",
+      email: "william.wilson@email.com",
+      id:uuidv4(),
+    },
+    {
+      name: "Sophia Taylor",
+      mobileNumber: "555-555-6789",
+      address: "901 Oak Street",
+      email: "sophia.taylor@email.com",
+      id:uuidv4(),
+    },
+    {
+      name: "James Brown",
+      mobileNumber: "555-555-1234",
+      address: "123 Main Street",
+      email: "james.brown@email.com",
+      id:uuidv4(),
+    },
+    {
+      name: "Isabella Davis",
+      mobileNumber: "555-555-5678",
+      address: "456 Oak Avenue",
+      email: "isabella.davis@email.com",
+      id:uuidv4(),
+    },
+    {
+      name: "Benjamin Lee",
+      mobileNumber: "555-555-9012",
+      address: "789 Pine Road",
+      email: "benjamin.lee@email.com",
+      id:uuidv4(),
+    },
+    {
+      name: "Mia Johnson",
+      mobileNumber: "555-555-3456",
+      address: "12 Maple Street",
+      email: "mia.johnson@email.com",
+      id:uuidv4(),
+    },
+    {
+      name: "Ethan Miller",
+      mobileNumber: "555-555-7890",
+      address: "345 Elm Avenue",
+      email: "ethan.miller@email.com",
+      id:uuidv4(),
+    },
+    {
+      name: "Charlotte Baker",
+      mobileNumber: "555-555-2345",
+      address: "678 Cedar Lane",
+      email: "charlotte.baker@email.com",
+      id:uuidv4(),
+    },
+    {
+      name: "Alexander Martinez",
+      mobileNumber: "555-555-6789",
+      address: "901 Oak Street",
+      email: "alexander.martinez@email.com",
+      id:uuidv4(),
+    },
+    {
+      name: "Abigail Gonzalez",
+      mobileNumber: "555-555-1234",
+      address: "123 Main Street",
+      email: "abigail.gonzalez@email.com",
+      id:uuidv4(),
+    }
+  ];
+export default users
